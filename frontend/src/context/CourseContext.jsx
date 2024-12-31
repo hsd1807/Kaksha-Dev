@@ -30,7 +30,7 @@ export const CourseContextProvider = ({ children }) => {
 
   async function fetchMyCourse() {
     try {
-      const { data } = await axios.get(`${server}/api/mycourse`, {
+      const { data } = await axios.get(`${server}/api/mycourses`, {
         headers: {
           token: localStorage.getItem("token"),
         },

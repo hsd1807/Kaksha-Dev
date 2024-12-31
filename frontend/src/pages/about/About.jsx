@@ -9,7 +9,7 @@ const About = () => {
         <p>
           We are dedicated to providing high quality online courses to help
           individuals learn and grow in their desired fields. Our experienced
-          intructors ensure that each course is tailored for effective learning
+          instructors ensure that each course is tailored for effective learning
           and practical application.
         </p>
       </div>

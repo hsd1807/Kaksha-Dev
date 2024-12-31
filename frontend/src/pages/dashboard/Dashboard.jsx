@@ -1,9 +1,9 @@
 import React from "react";
-import "./dashbord.css";
+import "./dashboard.css";
 import { CourseData } from "../../context/CourseContext";
 import CourseCard from "../../components/coursecard/CourseCard";
 
-const Dashbord = () => {
+const Dashboard = () => {
   const { mycourse } = CourseData();
   return (
     <div className="student-dashboard">
@@ -19,4 +19,4 @@ const Dashbord = () => {
   );
 };
 
-export default Dashbord;
+export default Dashboard;
