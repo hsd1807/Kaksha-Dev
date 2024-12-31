@@ -50,7 +50,7 @@ KakshaDev is a modern e-learning marketplace that bridges traditional education 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/kaksha-dev.git
+git clone https://github.com/hsd1807/kaksha-dev.git
 cd kaksha-dev
 ```
 
@@ -73,6 +73,8 @@ MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 RAZORPAY_KEY_ID=your_razorpay_key_id
 RAZORPAY_SECRET=your_razorpay_secret
+Gmail=your_gmail_id
+Password=your_password
 ```
 
 5. Start the backend server
@@ -146,28 +148,14 @@ npm run dev
 }
 ```
 
-## API Endpoints
-
-### Authentication
-* `POST /api/auth/register` - Register new user
-* `POST /api/auth/login` - User login
-* `GET /api/auth/me` - Get user profile
-
-### Courses
-* `GET /api/courses` - Get all courses
-* `GET /api/courses/:id` - Get specific course
-* `POST /api/courses` - Create new course (Instructor only)
-* `PUT /api/courses/:id` - Update course (Instructor only)
-* `DELETE /api/courses/:id` - Delete course (Instructor only)
-
-### Lectures
-* `GET /api/lectures/:courseId` - Get course lectures
-* `POST /api/lectures/:courseId` - Add lecture (Instructor only)
-* `DELETE /api/lectures/:courseId/:lectureId` - Delete lecture (Instructor only)
-
-### Payments
-* `POST /api/payments/subscribe` - Create subscription
-* `POST /api/payments/verify` - Verify payment
+## Showcase
+![HomePage](https://github.com/hsd1807/Kaksha-Dev/blob/main/assets/kd1.png)
+![Admin Dashboard](https://github.com/hsd1807/Kaksha-Dev/blob/main/assets/kd2.png)
+![Register](https://github.com/hsd1807/Kaksha-Dev/blob/main/assets/kd3.png)
+![OTP Verification](https://github.com/hsd1807/Kaksha-Dev/blob/main/assets/kd4.png)
+![OTP](https://github.com/hsd1807/Kaksha-Dev/blob/main/assets/kd5.png)
+![Login](https://github.com/hsd1807/Kaksha-Dev/blob/main/assets/kd6.png)
+![Payment](https://github.com/hsd1807/Kaksha-Dev/blob/main/assets/kd7.png)
 
 ## Security Features
 * JWT based authentication
