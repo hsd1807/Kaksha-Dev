@@ -4,7 +4,8 @@ import App from "./App.jsx";
 import { UserContextProvider } from "./context/UserContext.jsx";
 import { CourseContextProvider } from "./context/CourseContext.jsx";
 
-export const server = "http://localhost:5000";
+// Deployed Server on Render
+export const server = "https://kaksha-dev-server.onrender.com";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
