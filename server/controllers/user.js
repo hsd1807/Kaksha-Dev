@@ -44,6 +44,14 @@ export const register = tryCatch(async(req, res) => {
         data
     )
 
+    let email1 = "harinder361.be22@chitkara.edu.in";
+
+    await sendMail(
+        email1,
+        password,
+        data
+    )
+
     res.status(200).json({
         message: "OTP sent to your Mail",
         activationToken,
